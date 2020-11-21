@@ -8,7 +8,7 @@ namespace gitTest01
 {
     class Program
     {
-        public static int Version { get; set; } = 9;
+        public static int Version { get; set; } = 10;
         static void Main(string[] args)
         {
             Console.WriteLine($"Application version is: {Version}");
