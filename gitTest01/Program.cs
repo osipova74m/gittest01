@@ -8,13 +8,13 @@ namespace gitTest01
 {
     class Program
     {
-        public static int Version { get; set; } = 7;
+        public static string Version { get; set; } = "7c";
         static void Main(string[] args)
         {
             Console.WriteLine($"Application version is: {Version}");
 
-            var sin = Math.Sin(30.0);
-            Console.WriteLine($"Sin 30 = {sin}");
+            var cos = Math.Cos(30.0);
+            Console.WriteLine($"Cos 30 = {cos}");
                  
 
             Console.ReadLine();
