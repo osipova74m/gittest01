@@ -8,14 +8,17 @@ namespace gitTest01
 {
     class Program
     {
-        public static int Version { get; set; } = 7;
+        public static int Version { get; set; } = 9;
         static void Main(string[] args)
         {
             Console.WriteLine($"Application version is: {Version}");
 
-            var sin = Math.Sin(30.0);
+            var sin = Math.Sin(30);
             Console.WriteLine($"Sin 30 = {sin}");
-                 
+
+            var sin45 = Math.Sin(45);
+            Console.WriteLine($"Sin 45 = {sin45}");
+
 
             Console.ReadLine();
         }
